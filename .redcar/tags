@@ -1,8 +1,15 @@
-1301575082
+1301580382
+Address	/data/workspace/myaddressbook/app/models/address.rb	class Address 
+AddressTest	/data/workspace/myaddressbook/test/unit/address_test.rb	class AddressTest 
+AddressesController	/data/workspace/myaddressbook/app/controllers/addresses_controller.rb	class AddressesController 
+AddressesControllerTest	/data/workspace/myaddressbook/test/functional/addresses_controller_test.rb	class AddressesControllerTest 
+AddressesHelper	/data/workspace/myaddressbook/app/helpers/addresses_helper.rb	module AddressesHelper
+AddressesHelperTest	/data/workspace/myaddressbook/test/unit/helpers/addresses_helper_test.rb	class AddressesHelperTest 
 Application	/data/workspace/myaddressbook/config/application.rb	  class Application 
 ApplicationController	/data/workspace/myaddressbook/app/controllers/application_controller.rb	class ApplicationController 
 ApplicationHelper	/data/workspace/myaddressbook/app/helpers/application_helper.rb	module ApplicationHelper
 BrowsingTest	/data/workspace/myaddressbook/test/performance/browsing_test.rb	class BrowsingTest 
+CreateAddresses	/data/workspace/myaddressbook/db/migrate/20110331134917_create_addresses.rb	class CreateAddresses 
 Myaddressbook	/data/workspace/myaddressbook/config/application.rb	module Myaddressbook
 Str	/data/workspace/myaddressbook/public/javascripts/prototype.js	function Str(key, holder, stack)
 TestCase	/data/workspace/myaddressbook/test/test_helper.rb	class ActiveSupport::TestCase
@@ -30,6 +37,7 @@ collect	/data/workspace/myaddressbook/public/javascripts/prototype.js	function c
 compact	/data/workspace/myaddressbook/public/javascripts/prototype.js	function compact()
 concat	/data/workspace/myaddressbook/public/javascripts/prototype.js	function concat()
 copy	/data/workspace/myaddressbook/public/javascripts/prototype.js	function copy(methods, destination, onlyIfAbsent)
+create	/data/workspace/myaddressbook/app/controllers/addresses_controller.rb	  def create
 create	/data/workspace/myaddressbook/public/javascripts/prototype.js	function create()
 cssNameFor	/data/workspace/myaddressbook/public/javascripts/prototype.js	function cssNameFor(key)
 cumulativeOffset	/data/workspace/myaddressbook/public/javascripts/prototype.js	function cumulativeOffset(element)
@@ -39,13 +47,16 @@ dasherize	/data/workspace/myaddressbook/public/javascripts/prototype.js	function
 defer	/data/workspace/myaddressbook/public/javascripts/prototype.js	function defer()
 define	/data/workspace/myaddressbook/public/javascripts/prototype.js	function define(D)
 delay	/data/workspace/myaddressbook/public/javascripts/prototype.js	function delay(timeout)
+destroy	/data/workspace/myaddressbook/app/controllers/addresses_controller.rb	  def destroy
 detect	/data/workspace/myaddressbook/public/javascripts/prototype.js	function detect(iterator, context)
 dirCheck	/data/workspace/myaddressbook/public/javascripts/prototype.js	function dirCheck( dir, cur, doneName, checkSet, nodeCheck, isXML )
 dirNodeCheck	/data/workspace/myaddressbook/public/javascripts/prototype.js	function dirNodeCheck( dir, cur, doneName, checkSet, nodeCheck, isXML )
 dispatch	/data/workspace/myaddressbook/public/javascripts/effects.js	function dispatch(effect, eventName)
+down	/data/workspace/myaddressbook/db/migrate/20110331134917_create_addresses.rb	  def self.down
 each	/data/workspace/myaddressbook/public/javascripts/prototype.js	function each(iterator)
 each	/data/workspace/myaddressbook/public/javascripts/prototype.js	function each(iterator, context)
 eachSlice	/data/workspace/myaddressbook/public/javascripts/prototype.js	function eachSlice(number, iterator, context)
+edit	/data/workspace/myaddressbook/app/controllers/addresses_controller.rb	  def edit
 element	/data/workspace/myaddressbook/public/javascripts/prototype.js	function element(event)
 empty	/data/workspace/myaddressbook/public/javascripts/prototype.js	function empty()
 endsWith	/data/workspace/myaddressbook/public/javascripts/prototype.js	function endsWith(pattern)
@@ -81,6 +92,7 @@ inGroupsOf	/data/workspace/myaddressbook/public/javascripts/prototype.js	functio
 include	/data/workspace/myaddressbook/public/javascripts/prototype.js	function include(object)
 include	/data/workspace/myaddressbook/public/javascripts/prototype.js	function include(pattern)
 include	/data/workspace/myaddressbook/public/javascripts/prototype.js	function include(value)
+index	/data/workspace/myaddressbook/app/controllers/addresses_controller.rb	  def index
 index	/data/workspace/myaddressbook/public/javascripts/prototype.js	function index(value)
 indexOf	/data/workspace/myaddressbook/public/javascripts/prototype.js	function indexOf(item, i)
 initialize	/data/workspace/myaddressbook/public/javascripts/prototype.js	function initialize(object)
@@ -125,6 +137,8 @@ merge	/data/workspace/myaddressbook/public/javascripts/prototype.js	function mer
 merge	/data/workspace/myaddressbook/public/javascripts/prototype.js	function merge(object)
 methodize	/data/workspace/myaddressbook/public/javascripts/prototype.js	function methodize()
 min	/data/workspace/myaddressbook/public/javascripts/prototype.js	function min(iterator, context)
+mock_address	/data/workspace/myaddressbook/spec/controllers/addresses_controller_spec.rb	  def mock_address(stubs={})
+new	/data/workspace/myaddressbook/app/controllers/addresses_controller.rb	  def new
 observe	/data/workspace/myaddressbook/public/javascripts/prototype.js	function observe(element, eventName, handler)
 on	/data/workspace/myaddressbook/public/javascripts/prototype.js	function on(element, eventName, selector, callback)
 parseColor	/data/workspace/myaddressbook/public/javascripts/effects.js	function parseColor(color)
@@ -146,6 +160,7 @@ scan	/data/workspace/myaddressbook/public/javascripts/prototype.js	function scan
 select	/data/workspace/myaddressbook/public/javascripts/prototype.js	function select()
 select	/data/workspace/myaddressbook/public/javascripts/prototype.js	function select(selector, scope)
 set	/data/workspace/myaddressbook/public/javascripts/prototype.js	function set(key, value)
+show	/data/workspace/myaddressbook/app/controllers/addresses_controller.rb	  def show
 size	/data/workspace/myaddressbook/public/javascripts/prototype.js	function size()
 size	/data/workspace/myaddressbook/public/javascripts/prototype.js	function size()
 sortBy	/data/workspace/myaddressbook/public/javascripts/prototype.js	function sortBy(iterator, context)
@@ -185,6 +200,8 @@ unescapeHTML	/data/workspace/myaddressbook/public/javascripts/prototype.js	funct
 unfilterJSON	/data/workspace/myaddressbook/public/javascripts/prototype.js	function unfilterJSON(filter)
 uniq	/data/workspace/myaddressbook/public/javascripts/prototype.js	function uniq(sorted)
 unset	/data/workspace/myaddressbook/public/javascripts/prototype.js	function unset(key)
+up	/data/workspace/myaddressbook/db/migrate/20110331134917_create_addresses.rb	  def self.up
+update	/data/workspace/myaddressbook/app/controllers/addresses_controller.rb	  def update
 update	/data/workspace/myaddressbook/public/javascripts/prototype.js	function update(array, args)
 update	/data/workspace/myaddressbook/public/javascripts/prototype.js	function update(element, content)
 update	/data/workspace/myaddressbook/public/javascripts/prototype.js	function update(object)

@@ -1,0 +1,47 @@
+ #banner {
+background: black;
+padding-top: 10px;
+padding-bottom: 25px;
+border-bottom: 4px solid;
+font: small-caps 40px/40px "Tobin Tax", arial;
+color: Green;
+text-align: center;
+}
+#b {
+
+ background:blue;
+}
+#body{
+  background: grey; 
+}
+#table{
+ background:lightgrey;
+}
+
+#banner img {
+float: left;
+}
+#columns {
+background: green;
+}
+#main {
+margin-right: 13em;
+padding-top: 4ex;
+padding-left: 2em;
+padding-bottom: 50px;
+background: white;
+}
+#side {
+float: right;
+padding-top: 1em;
+padding-left: 1em;
+padding-bottom: 1em;
+width: 12em;
+background: blue;
+}
+#side a {
+color: #bfb;
+background: green;
+font-size: small;
+font-color:blue;
+}

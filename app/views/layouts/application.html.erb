@@ -1,14 +1,28 @@
-<!DOCTYPE html>
 <html>
 <head>
-  <title>Myaddressbook</title>
-  <%= stylesheet_link_tag :all %>
-  <%= javascript_include_tag :defaults %>
-  <%= csrf_meta_tag %>
+<title>My Address book</title>
+<%= stylesheet_link_tag "scaffold" %>
+<%= stylesheet_link_tag "addresses", :media => "all" %>
+<%= javascript_include_tag :defaults %>
+<%= csrf_meta_tag %>
 </head>
-<body>
+<body id="body" >
+<div id="banner" >
+<%= image_tag("logo.png") %>
 
+<%= @page_title || "Address book" %>
+</div>
+<div id="columns" >
+<div id="side" >
+<a href="#" >Home</a><br />
+<a href="#" >News</a><br />
+<%= link_to 'Show', @address %> <br />
+<%= link_to 'New Address', new_address_path %><br />
+</div>
+<div id="main" >
 <%= yield %>
-
+</div>
+</div>
 </body>
 </html>
+

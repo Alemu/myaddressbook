@@ -4,15 +4,18 @@ padding-top: 10px;
 padding-bottom: 25px;
 border-bottom: 4px solid;
 font: small-caps 40px/40px "Tobin Tax", arial;
-color: Green;
+color: wieth;
 text-align: center;
+text-shadow: 4px 4px 4px #211;
 }
 #b {
 
- background:blue;
+ background:red;
 }
-#body{
-  background: grey; 
+html,body{
+  
+  height:100%;
+  
 }
 #table{
  background:lightgrey;
@@ -37,11 +40,29 @@ padding-top: 1em;
 padding-left: 1em;
 padding-bottom: 1em;
 width: 12em;
-background: blue;
+background: gainsboro ;
+font-color:green;
 }
 #side a {
 color: #bfb;
-background: green;
-font-size: small;
-font-color:blue;
+
+font-size: 16;
+font-color:black;
+text-shadow: 2px 2px 2px #000;
+}
+.wrapper{
+min-height: 100%;
+height:auto !important;
+height:100%;
+margin:0 auto -4em;
+}
+.footer, .push{
+  clear:both;
+ height:4em;
+}
+h1,h2,h3{
+  text-shadow: 4px 4px 4px #000;
+}
+p{
+text-shadow: 2px 2px 2px #000;
 }
